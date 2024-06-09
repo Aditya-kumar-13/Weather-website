@@ -31,7 +31,7 @@ function get(){
         mes.innerText='';
         console.log(data);
         var iconCode = data.weather[0].icon;
-        var iconUrl = "http://openweathermap.org/img/wn/" + iconCode + ".png";
+        var iconUrl = "https://openweathermap.org/img/wn/" + iconCode + ".png";
         var img = document.createElement("img");
         img.src = iconUrl;
         icon.append(img);
