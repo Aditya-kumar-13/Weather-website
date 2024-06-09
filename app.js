@@ -16,7 +16,7 @@ let a;
 btn.addEventListener('click',get);
 function get(){
     let city = input.value;
-    fetch (`http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=469df3a38afb39cb526d1497a228c8a6&units=metric`)
+    fetch (`https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=469df3a38afb39cb526d1497a228c8a6&units=metric`)
 
     .then((res)=>{
         return res.json();
